@@ -1,0 +1,15 @@
+*{box-sizing:border-box}
+body{margin:0;background:#070707;color:#fff;font-family:tahoma,Arial}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:#0b0b0b;border-bottom:1px solid #d99a00}
+.logo{font-size:30px;font-weight:bold;color:#d99a00}
+.logo span{color:#fff}
+nav a{margin:10px;color:#fff;text-decoration:none}
+.hero{min-height:450px;display:flex;align-items:center;padding:50px;background:linear-gradient(120deg,#000,#211400)}
+.hero h1{font-size:45px}
+.gold,h2{color:#d99a00}
+button{background:#d99a00;border:0;padding:15px 35px;border-radius:8px;font-weight:bold}
+.features,.cards{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;padding:40px}
+.features div,.cards div{background:#111;border:1px solid #d99a00;border-radius:12px;padding:30px;text-align:center;width:240px}
+h2{text-align:center}
+footer{text-align:center;padding:40px;background:#111;color:#aaa}
+@media(max-width:700px){header{display:block;text-align:center}.hero h1{font-size:30px}}
