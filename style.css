@@ -1,9 +1,0 @@
-body{margin:0;background:#050505;color:white;font-family:tahoma;text-align:center}
-header{padding:25px;background:#111;border-bottom:2px solid #f5a900}
-h1,h2{color:#f5a900}
-nav a{margin:10px;color:white;text-decoration:none}
-.hero{padding:70px 10px}
-button{background:#f5a900;border:0;padding:15px 30px;border-radius:10px}
-.box{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
-.box div{background:#111;border:1px solid #f5a900;padding:40px;border-radius:15px}
-footer{margin-top:50px;color:#aaa}
