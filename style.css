@@ -1,15 +1,204 @@
-*{box-sizing:border-box}
-body{margin:0;background:#070707;color:#fff;font-family:tahoma,Arial}
-header{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:#0b0b0b;border-bottom:1px solid #d99a00}
-.logo{font-size:30px;font-weight:bold;color:#d99a00}
-.logo span{color:#fff}
-nav a{margin:10px;color:#fff;text-decoration:none}
-.hero{min-height:450px;display:flex;align-items:center;padding:50px;background:linear-gradient(120deg,#000,#211400)}
-.hero h1{font-size:45px}
-.gold,h2{color:#d99a00}
-button{background:#d99a00;border:0;padding:15px 35px;border-radius:8px;font-weight:bold}
-.features,.cards{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;padding:40px}
-.features div,.cards div{background:#111;border:1px solid #d99a00;border-radius:12px;padding:30px;text-align:center;width:240px}
-h2{text-align:center}
-footer{text-align:center;padding:40px;background:#111;color:#aaa}
-@media(max-width:700px){header{display:block;text-align:center}.hero h1{font-size:30px}}
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+background:#050505;
+color:#fff;
+font-family:tahoma,Arial,sans-serif;
+direction:rtl;
+}
+
+header{
+background:#0d0d0d;
+padding:20px 15px;
+text-align:center;
+border-bottom:2px solid #d99b00;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+color:#ffb000;
+}
+
+.logo span{
+color:#fff;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:12px;
+flex-wrap:wrap;
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:14px;
+}
+
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:
+linear-gradient(
+135deg,
+#000,
+#241700
+);
+}
+
+
+.hero h1{
+font-size:40px;
+color:#ffb000;
+margin-bottom:10px;
+}
+
+
+.hero h2{
+color:white;
+}
+
+
+.hero p{
+font-size:17px;
+line-height:2;
+color:#ddd;
+}
+
+
+button{
+background:#ffb000;
+color:#000;
+border:0;
+padding:14px 35px;
+border-radius:12px;
+font-weight:bold;
+font-size:16px;
+}
+
+
+.services{
+display:flex;
+justify-content:center;
+gap:15px;
+padding:25px;
+flex-wrap:wrap;
+}
+
+
+.service{
+background:#111;
+border:1px solid #b57a00;
+border-radius:15px;
+width:30%;
+min-width:250px;
+padding:25px;
+text-align:center;
+}
+
+
+.service h3{
+color:#ffb000;
+}
+
+
+
+.title{
+text-align:center;
+color:#ffb000;
+margin-top:20px;
+}
+
+
+.products{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:25px;
+flex-wrap:wrap;
+}
+
+
+.card{
+background:#111;
+border:1px solid #ffb000;
+border-radius:18px;
+padding:30px;
+width:280px;
+text-align:center;
+}
+
+
+.card h3{
+color:#ffb000;
+}
+
+
+.telegram{
+margin:20px;
+padding:30px;
+text-align:center;
+background:#111;
+border-radius:20px;
+}
+
+
+.telegram a{
+display:inline-block;
+margin-top:15px;
+background:#ffb000;
+color:#000;
+padding:12px 30px;
+border-radius:10px;
+text-decoration:none;
+}
+
+
+footer{
+text-align:center;
+padding:30px;
+color:#888;
+}
+
+
+
+@media(max-width:600px){
+
+.logo{
+font-size:26px;
+}
+
+nav{
+display:block;
+}
+
+nav a{
+display:block;
+margin:12px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.services,
+.products{
+display:block;
+}
+
+.service,
+.card{
+width:90%;
+margin:20px auto;
+}
+
+}
