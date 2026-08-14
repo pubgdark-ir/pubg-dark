@@ -1,0 +1,1 @@
+console.log('PUBG DARK ready');
